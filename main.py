@@ -6,6 +6,6 @@ temp_smallest = min
 
 for item in list:
   if item < temp_smallest:
-    temp_smallest = item + 1
+    temp_smallest = item
 
 print('Minimum', temp_smallest)
